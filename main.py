@@ -2,6 +2,8 @@ import tweepy
 import lob
 import googlemaps
 import sunlight
+from modules.BreezeClient import Client
+import breezo
 
 # imports for Weather API
 import urllib2
@@ -136,6 +138,8 @@ print "It's currently %s degrees in %s." %(temp_f, location)
 f.close()
 
 print "\n"
+
+print "Here's a description of the air quality in your area:%s \n"% (air_quality)
 print "Here's a list of Congress members who represent your area: \n"
 
 for rep in congressList:

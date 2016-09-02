@@ -4,7 +4,7 @@ import pprint
 
 gmaps = googlemaps.Client(key='AIzaSyBuBYoY9OiVXnJnQf3D1jFG_iBOjqJkzw8')
 
-geocode_result = gmaps.geocode('3912 New Hampshire NW, Washington, DC')
+geocode_result = gmaps.geocode(address)
 latitude = geocode_result[0]["geometry"]["location"]["lat"]
 longitude = geocode_result[0]["geometry"]["location"]["lng"]
 
