@@ -140,7 +140,10 @@ f.close()
 print "\n"
 
 print "Here's a description of the air quality in your area:%s \n"% (air_quality)
+<<<<<<< HEAD
 
+=======
+>>>>>>> cfp/erick_branch
 print "Here's a list of Congress members who represent your area: \n"
 
 for rep in congressList:
